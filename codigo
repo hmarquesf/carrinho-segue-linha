@@ -5,9 +5,9 @@ function control(left_sensor, right_sensor, speed) {
     
     return {
         
-        engineTorque: 900,
+        engineTorque: 1050,
         brakingTorque: 0,
-        steeringAngle: 0.2823 * error
+        steeringAngle: 0.365 * error
   
     };
 }
